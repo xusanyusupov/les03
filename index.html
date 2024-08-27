@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">     
+</head>
+<body>
+    <header>
+        <h1>Swich Case JS (javascript)</h1>
+    </header>    
+    <main>
+        <section>
+            <div class="container">
+                <h4>JavaScript-dagi switch case operatori bir o‘zgaruvchining qiymatini bir nechta imkoniyatlar bilan solishtirish uchun ishlatiladi. U if...else bayonotlarining o‘rnini bosuvchi qulayroq usul sifatida qaraladi, ayniqsa, ko‘p shartlar mavjud bo‘lganda. Quyida switch case operatorining umumiy tuzilmasi va qanday ishlatilishi haqida misol keltirilgan:</h5>
+                    <h4>Switch case quyidagi strukturada yoziladi</h4>
+                    <strong class="red">switch: Ifodaning qiymatini turli qiymatlar bilan solishtiradi.</strong><br>
+                    <strong class="red">case: Ifodaning qiymati bilan mos bo‘lsa, tegishli kodni bajaradi.</strong>
+                    
+                    <br><br><br>
+                <ul class="all">
+                    <strong class="let">let haftaKuni = +prompt('hafta kunlarini kiriting')</strong>
+                    <li class="color">switch (haftaKuni) {</li>
+                        <li class="red">case 1:</li>
+                        <li class="red">case 2:</li>
+                        <li class="red">case 3:</li>
+                        <li class="red">case 4:</li>
+                        <li class="red">case 5:</li>
+                        <li class="color">console.log("Bu ish kuni.");</li>
+                        <li class="color">break</li>
+                        <li class="red">case 6:</li>
+                        <li class="red">case 7:</li>
+                        <li class="color">console.log("Bu dam olish kuni.");</li>
+                        <li class="color">break</li>
+                        <li class="red">default:</li>
+                        <li class="color"> console.log("Notog'ri kun.");</li>
+                        <li class="color">}</li>
+                </ul>  
+
+                
+                <i>
+                <p class="des"> <b class="red">SWITCH</b> huddi <b class="red">IF</b> kabi <b class="red">CASE</b>lar esa <b class="red">IF</b> true qiymatini olganda <b class="red">IF</b>ni ichidagi shartlar bajariladi <b class="red">SWITCH</b> esa <b class="red"> CASE</b> lardagi shartlar bajariladi  </p>
+                <p> <b class="red">DEFAULT</b> esa <b class="red">FALSE</b> kabi ishlaydi</p>
+                </i>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="switch">
+                    <b class="color">SWITCH avzalligi</b>
+                   <div class="flex">
+                    <b class="color">Qulaylik va o‘qish osonligi</b>
+                    <p>Agar ko‘p shartlarni ketma-ket tekshirish kerak bo‘lsa, switch operatori kodni qisqartiradi va o‘qishni osonlashtiradi.</p>
+                   </div>
+                   <div class="flex">
+                    <b class="color"> Tezlik </b>
+                    <p>Ba'zi kompilyatorlar switch dan foydalanilganda kodni optimallashtiradi, bu esa ko‘p sonli shartlarni tekshirishda samaradorlikni oshiradi.</p>
+                   </div>
+                   <div class="flex">
+                    <b class="color"> Toza tuzilma: </b>
+                    <p>Ko‘p else if holatlaridan saqlanish mumkin. Bu kodning tozaligini ta’minlaydi.</p>
+                   </div>
+                </div>
+                <div class="flexa">
+                    <b class="color">IF...ELSE DAN FOYDALANISH AFZALLIKLARI:</b>
+                   <p> Ko‘proq moslashuvchanlik: if...else operatori bilan har qanday turdagi shartlarni tekshirish mumkin, masalan, diapazonlar, bir necha shartlar va hokazo.
+                    Aralash shartlar: if...else har xil shartlarni, <b class="red">masalan, <, >, <=, >=, va == kabi solishtirishlarni qabul qiladi.</b> switch esa faqat qat'iy tengliklarni tekshirish bilan cheklangan.
+                    `Murakkab mantiqiy operatsiyalar: if...else murakkab mantiqiy ifodalarni va boshqa operatorlarni qo'llash imkonini beradi, bu esa ko'proq nazoratni ta'minlaydi.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="app.js">
+    </script>
+</body>
+</html>
